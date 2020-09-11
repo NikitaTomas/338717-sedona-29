@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Станислав](https://up.htmlacademy.ru/htmlcss/29/user/338717).
+* Студент!: [Станислав](https://up.htmlacademy.ru/htmlcss/29/user/338717).
 * Наставник: [Кексобот].
 
 ---
