@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="/css/Style.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalise.css">
+    <link rel="stylesheet" href="css/Style.css">
   </head>
   <body>
 
-    <header>
+    <header class="main-header">
       <section class="box-index">
-        <h2>Навигация</h2>
-        <nav>
-          <ul>
-            <li>
+        <h2 class="visuality_hidden">Навигация</h2>
+        <nav class="main-navigation">
+          <ul class="flex-main-navigation">
+            <li class="">
               <a href="#">Информация</a>
             </li>
             <li>
@@ -34,8 +35,8 @@
     </header>
 
     <main>
-      <section class="box-index">
-        <h2>Седона</h2>
+      <section class="box-index background-section-sedona">
+        <h2 class="visuality_hidden">Седона</h2>
         <ul class="flex-index-1">
           <li>
             <img src="#" alt="velcome">
@@ -50,141 +51,107 @@
       </section>
 
       <section class="box-index">
-        <h2>О нас</h2>
-        <div>
-          <h3>Седона — небольшой городок в Аризоне, заслуживающий большего!</h3>
+        <h2 class="visuality_hidden">О нас</h2>
+        <div class="briefly-about-us">
+          <h3>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h3>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </div>
       </section>
 
       <section class="box-index">
-        <h2>Наш городок</h2>
-        <div class="">
-          <div class="">
+        <h2 class="visuality_hidden">Наш городок</h2>
+        <div class="Our-town-flex">
+          <div class="Our-town">
             <h2>Настоящий городок</h2>
-            <i>— №1 —</i>
+            <p>— №1 —</p>
             <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
-          <div class="">
-            <img src="#" alt="фото">
-          </div>
+          <img src="img/image-background-1.png" alt="фото-городка">
         </div>
       </section>
 
       <section class="box-index">
-        <h2>Услуги</h2>
-        <div class="">
-          <ul>
-            <li>
+        <h2 class="visuality_hidden">Услуги</h2>
+        <div class="Services">
+          <ul class="features-list-flex">
+            <li class="feature-item">
+              <img src="img/Services-icon-1.png" alt="домик">
               <h3>Жильё</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <p>Рекомендуем пожить в настоящем <br> мотеле, всё как в кино!</p>
             </li>
-            <li>
+            <li class="feature-item">
+              <img src="img/Services-icon-3.png" alt="бургер">
               <h3>Еда</h3>
-              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              <p>Всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p>
             </li>
-            <li>
+            <li class="feature-item">
+              <img src="img/Services-icon-2.png" alt="сувенир">
               <h3>Сувениры</h3>
-              <p>Не только китайского, но и местного производства!</p>
+              <p>Не только китайского, но и местного <br> производства!</p>
             </li>
           </ul>
         </div>
       </section>
 
       <section class="box-index">
-        <h2>Мост дьявола</h2>
-        <div class="">
-          <div class="">
-            <img src="#" alt="фото">
-          </div>
-          <div class="">
+        <h2 class="visuality_hidden">Мост дьявола</h2>
+        <div class="Devils-bridge-flex">
+          <img src="img/image-background-2.png" alt="фото-Мост-дьявола">
+          <div class="Devils-bridge">
             <h2>Там есть Мост дьявола</h2>
-            <i>— №2 —</i>
+            <p>— №2 —</p>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
         </div>
       </section>
 
       <section class="box-index">
-        <h2>Преимущества</h2>
-        <div class="">
-          <ul>
+        <h2 class="visuality_hidden">Преимущества</h2>
+          <ul class="advantages-flex">
             <li>
               <h3>небольшая площадь</h3>
-              <b>— №3 —</b>
+              <p>— №3 —</p>
               <p>все достопримечательности находятся очень близко</p>
             </li>
             <li>
               <h3>красивая дорога</h3>
-              <b>— №4 —</b>
+              <p>— №4 —</p>
               <p>ехать в седону из лас-вегаса совсем не скучно!</p>
             </li>
             <li>
               <h3>мало туристов</h3>
-              <b>— №5 —</b>
+              <p>— №5 —</p>
               <p>большинство едет в гранд каньон и толпится там</p>
             </li>
           </ul>
-        </div>
       </section>
 
       <section class="box-index">
-        <h2>Обратная связь</h2>
-        <div class="">
+        <h2 class="visuality_hidden">Обратная связь</h2>
+        <div class="Feedback">
           <h2>Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         </div>
-        <div class="">
-          <ul>
-            <li>
-              <div class="">
-                <a href="#"></a>
-              </div>
-              <ul class="visuality_hidden">
-                <li>
-                  <form class="" action="index.html" method="post">
-                    <div class="">
-                      <label for=""></label>
-                      <input type="text" name="" value="">
-                    </div>
-                    <div class="">
-                      <label for=""></label>
-                      <input type="text" name="" value="">
-                    </div>
-                    <div class="">
-                      <label for=""></label>
-                      <input type="text" name="" value="">
-                    </div>
-                    <div class="">
-                      <label for=""></label>
-                      <input type="text" name="" value="">
-                    </div>
-                  </form>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+        <button type="button" name="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
       </section>
     </main>
 
     <footer>
       <section class="box-index">
-        <h2>Карта</h2>
+        <h2 class="visuality_hidden">Карта</h2>
         <div class="maps-index">
-
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.1356577629!2d-111.83015784377952!3d34.854443815250974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1600271644087!5m2!1sru!2sru" width="1199" height="594" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </section>
 
       <section class="box-index">
-        <h2>Мы в соцсетях</h2>
-        <div class="">
-            <div>
-              <a href="#">#visitSEDONA</a>
+        <h2 class="visuality_hidden">Мы в соцсетях</h2>
+        <div class="Feedback-index">
+            <div class="Feedback-index-box-1">
+              <a href="#">#visitSEDONA</a><br>
               <a href="#">ТЕЛ: +7(495) 666-01-66</a>
             </div>
-            <div class="">
-              <ul>
+            <ul class="social-networks">
                 <li>
                   <a href="https://twitter.com/">tvit</a>
                 </li>
@@ -194,17 +161,48 @@
                 <li>
                   <a href="https://www.youtube.com/">YouTube</a>
                 </li>
-              </ul>
-            </div>
+            </ul>
             <div class="">
-              <b></b>
+              <b>Website by</b>
               <a href="#">
-                <img src="#w" alt="">
+                <img src="img/logo-htmlacademy.png" alt="Логотип академии">
               </a>
             </div>
         </div>
       </section>
     </footer>
+
+    <div class="">
+      <ul>
+        <li>
+          <div>
+            <button class="fgf1">ПОИСК ГОСТИНИЦЫ В седоне</button>
+          </div>
+          <ul >
+            <li>
+              <form class="" action="index.html" method="post">
+                <div class="">
+                  <label for=""></label>
+                  <input type="text" name="" value="">
+                </div>
+                <div class="">
+                  <label for=""></label>
+                  <input type="text" name="" value="">
+                </div>
+                <div class="">
+                  <label for=""></label>
+                  <input type="text" name="" value="">
+                </div>
+                <div class="">
+                  <label for=""></label>
+                  <input type="text" name="" value="">
+                </div>
+              </form>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
   </body>
 </html>

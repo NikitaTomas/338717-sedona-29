@@ -1,0 +1,200 @@
+
+:root {
+  --background-color-main-body: #F2F2F2;
+  --navigation-main-background-color: #FFFFFF;
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --color-main-navigation-hover: #81B3D2;
+}
+
+body {
+  min-width: 1280px;
+  height: 2762px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: var(--basic-black);
+  background-color: var(--background-color-main-body);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visuality_hidden {
+  visibility: hidden;
+  line-height: 0;
+}
+
+/*---------  Header  ----------*/
+.main-header {
+  background-color: var(--navigation-main-background-color);
+}
+
+
+.flex-main-navigation {
+  list-style: none;
+}
+
+.flex-main-navigation a{
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.flex-main-navigation a:hover,
+.flex-main-navigation  a:focus {
+  color: var(--color-main-navigation-hover);
+}
+
+.flex-main-navigation a:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+/*------------  Main  ------------------*/
+
+.background-section-sedona {
+  background-image: url("../img/background-photo-sedona.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.flex-index-1 {
+  list-style: none;
+}
+
+/*-------------------------------------*/
+
+.briefly-about-us {
+  background-color: var(--basic-white);
+  text-align: center;
+}
+
+/*---------------------------------------*/
+
+.Our-town-flex {
+  display: flex;
+}
+
+.Our-town {
+  width: 400px;
+  height: 256px;
+  text-align: center;
+  background-color: #81B3D2;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.Our-town h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.Our-town p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/*--------------------------------------------*/
+
+.features-list-flex {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features-list-flex h3 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features-list-flex p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+/*----------------------------------------------*/
+
+.Devils-bridge-flex {
+  display: flex;
+}
+
+.Devils-bridge {
+  width: 400px;
+  height: 256px;
+  text-align: center;
+  background-color: #81B3D2;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.Devils-bridge h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.Devils-bridge p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/*-------------------------------------------------*/
+
+.advantages-flex {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-flex h3 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advantages-flex p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+/*--------------------------------------------------*/
+
+
+.Feedback-index {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.Feedback-index a {
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+.Feedback-index-box-1 {
+
+}
+
+.social-networks {
+  display: flex;
+}
