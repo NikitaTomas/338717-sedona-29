@@ -146,8 +146,8 @@ a {
 .flex-index-1::after{
   display: block;
   position: absolute;
-  left: 75px;
-  bottom: 52px;
+  left: 352px;
+  top: 508px;
   content: url("../img/flex-index-1-background.png");
 }
 
@@ -335,31 +335,169 @@ a {
 
 
 .Feedback-index {
+  min-height: 291px;
+  pa dding-top: 25px;
   margin-top: -15px;
   height: 291px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  bac kground-color: rgba(255, 255, 255, 0.9);
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.9);
 }
+
+.Feedback-index h3 {
+  margin-top: 55px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.Feedback-index p {
+  margin-bottom: 45px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+
 
 .Feedback-index a {
   color: var(--basic-black);
   text-transform: uppercase;
 }
 
-.Feedback-index-box-1 {
-
-}
+/*------------------------------------------------------*/
 
 .social-networks {
   display: flex;
 }
 
+
+/*------------------------------------*/
+
+.Feedback {
+  width: 600px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Feedback-button a {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 86px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.Feedback-button {
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  margin: 0 auto;
+}
+
+/*-----------maps-----------------*/
+
+.maps-index {
+}
+
+
+/*------------------  footer  ------------------------------*/
+
+
+.Footer-index {
+  padding: 0;
+  min-height: 126px;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.Footer-index-box-2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 58px;
+}
+
+.Footer-index-box-2  p {
+  margin-right: 7px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.Footer-index-box-1 {
+  padding-left: 0;
+  margin-left: -130px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Footer-index-box-1 a {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.Footer-index-box-1-contact {
+  margin-top: 30px;
+}
+
+.Footer-social-networks {
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 42px;
+  bac kground-color: red;
+}
+
+.Footer-social-networks-item {
+  ma rgin-right: 3px;
+  width: 46px;
+  height: 48px;
+  background-color: #81B3D2;
+  border: 1px solid white;
+  list-style: none;
+  text-align: center;
+  line-height: 4;
+}
+
+.Footer-social-networks-item:hover {
+  background-color: #669EC0;
+}
+
+.Footer-social-networks-item:active {
+  background-color: #5496BD;
+}
+
+.Footer-social-networks-item a:active {
+  opacity: 0.3;
+}
+
+.item-fb img {
+  margin-top: 15px;
+}
+
 /*----------------------------  Catalog-html  ------------------------*/
 
 .hotel-filter-flex {
+  min-height: 217px;
   color: var(--basic-white);
   list-style: none;
   text-transform: uppercase;
@@ -513,83 +651,4 @@ a {
   line-height: 21px;
   text-transform: uppercase;
   color: var(--basic-white);
-}
-/*------------------------------------*/
-
-.Feedback {
-  width: 600px;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.Feedback-button a {
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 86px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-.Feedback-button {
-  width: 568px;
-  height: 86px;
-  background-color: #766357;
-  margin: 0 auto;
-}
-
-/*------------------  footer  ------------------------------*/
-
-.foo ter-index {
-  margin-top: 0;
-  height: 120px;
-  background-color: green;
-}
-
-.Footer-index {
-  display: flex;
-  justify-content: space-around;
-  background-color: green;
-}
-
-
-
-.Footer-index-box-2 {
-  width: 280px;
-  display: flex;
-  background-color: red;
-}
-
-.Footer-index-box-1 {
-  width: 260px;
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-}
-
-
-.social-networks-item {
-  width: 46px;
-  height: 48px;
-  background-color: #81B3D2;
-  border: 1px solid white;
-  list-style: none;
-  text-align: center;
-  line-height: 4;
-}
-
-.social-networks-item:hover {
-  background-color: #669EC0;
-}
-
-.social-networks-item:active {
-  background-color: #5496BD;
-}
-
-.social-networks-item a:active {
-  opacity: 0.3;
-}
-
-.item-fb img {
-  margin-top: 15px;
 }
