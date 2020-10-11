@@ -73,16 +73,27 @@
             </form>
           </li>
           <li class="hotel-filter">
-            <form class="" action="index.html" method="post">
-              <h3>Стоимость в сутки (Р):</h3>
-              <div>
-                <output name="sum">0</output>
-                <output name="sum">3000</output><br>
-                <input type="range" name="range" value="2500" min="0" max="3000">
-              </div>
-              <div class="hotel-filter-3-button">
-                <a href="#">Показать</a>
-              </div>
+            <form class="form-filter-catalog" action="index.html" method="post">
+              <fieldset class="filter-catalog">
+                <legend>Стоимость в сутки (Р):</legend>
+                <div class="range-filter-cdtdlog">
+                  <div class="price-control-catalog">
+                    <label class="min-price-catalog">
+                       <input type="number" name="min-price" value="0">
+                    </label>
+                    <label class="max-price-catalog">
+                      <input type="number" name="max-price" value="3000">
+                    </label>
+                  </div>
+                  <div class="range-control-catalog">
+                    <div class="skale">
+                      <div class="bar-catalog"></div>
+                    </div>
+                    <div class="toggle toggle-min"></div>
+                    <div class="toggle toggle-max"></div>
+                  </div>
+                </div>
+              </fieldset>
             </form>
           </li>
         </ul>

@@ -658,6 +658,97 @@ a {
   margin-left: 38px;
 }
 
+.form-filter-catalog {
+  margin-top: 17px;
+  margin-left: 120px;
+}
+
+.filter-catalog {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filter-catalog legend {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.range-control-catalog {
+  position: relative;
+  height: 21px;
+  margin-top: 0;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.range-control-catalog .toggle {
+  position: absolute;
+  top: 28px;
+  width: 3.8px;
+  height: 3.8px;
+  padding: 0;
+  border: 9.5px solid white;
+  background-color: #ABABAB;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+
+.range-control-catalog .toggle-min {
+  left: 10px;
+}
+
+.range-control-catalog .toggle-max {
+  left: 180px;
+}
+
+.range-control-catalog .skale{
+  width: 248px;
+  height: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+}
+
+.range-control-catalog .bar-catalog {
+  width: 80%;
+  height: 2px;
+  background-color: green;
+}
+
+.range-filter-cdtdlog {
+  width: 340px;
+}
+
+.price-control-catalog {
+  display: flex;
+  margin-top: 10px;
+}
+
+.price-control-catalog label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.price-control-catalog input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  width: 151px;
+  height: 30px;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+}
+
 /*--------------------searching-results-------------------*/
 
 .searching-results {
