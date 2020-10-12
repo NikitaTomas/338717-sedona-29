@@ -489,9 +489,102 @@ a {
   margin-top: 15px;
 }
 
+/*-------------------Popup-index-SEARCH HOTEL--------------------*/
+
+.Popup-index-SEARCH-HOTEL {
+  display: flex;
+  position: absolute;
+  top: 2170px;
+  left: 669px;
+  width: 568px;
+  height: 395px;
+
+  background-color: #FFFFFF;
+  box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.Popup-index {
+  margin-top: 55px;
+  margin-left: 55px;
+}
+
+.Popup-index-date,
+.Popup-index-text {
+  margin-bottom: 29px;
+}
+
+
+.Popup-index-date {
+  ou tline: 1px solid red;
+}
+
+.Popup-index-text:last-child {
+  margin-right: 0;
+  padding: 0;
+}
+
+.Popup-index-text {
+  margin-right: 30px;
+  width: 215px;
+  out line: 1px solid red;
+}
+
+.Popup-index-text label {
+  marg in-right: 30px;
+}
+
+.Popup-index-SEARCH-HOTEL label {
+  margin-right: 18px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+.flex-Popup-index-text {
+  padding: 0;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  bac kground-color: green;
+}
+
+.Popup-index-SEARCH-HOTEL .popup-date {
+  width: 346px;
+  height: 38px;
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.Popup-index-SEARCH-HOTEL .popup-text {
+  width: 114px;
+  height: 38px;
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.Popup-index-button {
+  margin-top: 23px;
+  margin-right: 5px;
+  width: 458px;
+  height: 58px;
+  background-color: #81B3D2;
+  text-align: center;
+}
+
+.Popup-index-button a {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
 /*-----------------------------------  Catalog-html  --------------------------------*/
 
 .Catalog-main-header {
+  left: 300px;
   width: 1200px;
   height: 56px;
   margin: 0 auto;
@@ -681,19 +774,18 @@ a {
   position: relative;
   height: 21px;
   margin-top: 0;
-  padding-top: 39px;
+  padding-top: 21px;
   padding-right: 20px;
-  padding-left: 20px;
   border-radius: 5px;
 }
 
 .range-control-catalog .toggle {
   position: absolute;
   top: 28px;
-  width: 3.8px;
-  height: 3.8px;
+  width: 4px;
+  height: 4px;
   padding: 0;
-  border: 9.5px solid white;
+  border: 7px solid white;
   background-color: #ABABAB;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -701,15 +793,18 @@ a {
 }
 
 .range-control-catalog .toggle-min {
-  left: 10px;
+  top: 12px;
+  left: 3px;
 }
 
 .range-control-catalog .toggle-max {
-  left: 180px;
+  top: 12px;
+  left: 256px;
 }
 
 .range-control-catalog .skale{
-  width: 248px;
+  margin-left: 5px;
+  width: 316px;
   height: 2px;
   background-color: #ffffff;
   opacity: 0.3;
@@ -728,6 +823,7 @@ a {
 .price-control-catalog {
   display: flex;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .price-control-catalog label {
@@ -747,6 +843,21 @@ a {
   border: 2px solid white;
   text-align: center;
   color: white;
+}
+
+.range-filter-cdtdlog-button {
+  width: 137px;
+  height: 36px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 87px;
+  margin-top: 14px;
+  text-transform: uppercase;
 }
 
 /*--------------------searching-results-------------------*/
