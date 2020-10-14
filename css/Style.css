@@ -491,6 +491,10 @@ a {
 
 /*-------------------Popup-index-SEARCH HOTEL--------------------*/
 
+.SEARCH-HOTEL {
+  disp lay: none;
+}
+
 .Popup-index-SEARCH-HOTEL {
   display: flex;
   position: absolute;
@@ -498,24 +502,19 @@ a {
   left: 669px;
   width: 568px;
   height: 395px;
-
   background-color: #FFFFFF;
   box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
 }
 
 .Popup-index {
-  margin-top: 55px;
+  margin-top: 53px;
   margin-left: 55px;
+
 }
 
 .Popup-index-date,
 .Popup-index-text {
-  margin-bottom: 29px;
-}
-
-
-.Popup-index-date {
-  ou tline: 1px solid red;
+  margin-bottom: 27px;
 }
 
 .Popup-index-text:last-child {
@@ -525,33 +524,100 @@ a {
 
 .Popup-index-text {
   margin-right: 30px;
-  width: 215px;
-  out line: 1px solid red;
 }
 
-.Popup-index-text label {
-  marg in-right: 30px;
+.Popup-index-text input {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Popup-index-text .pop-1 {
+  margin-right: 35px;
+}
+
+.Popup-index-text .plus-1 {
+  position: absolute;
+  content: "";
+  left: 255px;
+  top: 196px;
+  cursor: pointer;
+}
+
+.Popup-index-text .plus-2 {
+  position: absolute;
+  content: "";
+  left: 488px;
+  top: 196px;
+  cursor: pointer;
+}
+
+.Popup-index-text .minus-1 {
+  position: absolute;
+  content: "";
+  left: 179px;
+  top: 192px;
+  cursor: pointer;
+}
+
+.Popup-index-text .minus-2 {
+  position: absolute;
+  content: "";
+  left: 412px;
+  top: 192px;
+  cursor: pointer;
+}
+
+
+.Popup-index-text .pop-2 {
+  margin-right: 23px;
+}
+
+.Popup-index-date .pop-3 {
+  margin-right: 21px;
+}
+
+.Popup-index-date .pop-4 {
+  margin-right: 18px;
+}
+
+.Popup-index-date input {
+  padding-left: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.calendar {
+  margin-top: 8px;
+  position: absolute;
+  content: "";
+  left: 482px;
+  cursor: pointer;
 }
 
 .Popup-index-SEARCH-HOTEL label {
-  margin-right: 18px;
   font-weight: bold;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 30px;
   color: var(--basic-black);
   text-transform: uppercase;
 }
 
 .flex-Popup-index-text {
   padding: 0;
+  margin-top: 0;
+  margin-right: 5px;
   width: 460px;
   display: flex;
   justify-content: space-between;
-  bac kground-color: green;
 }
 
 .Popup-index-SEARCH-HOTEL .popup-date {
-  width: 346px;
+  width: 330px;
   height: 38px;
   background-color: #F2F2F2;
   border: none;
@@ -565,7 +631,7 @@ a {
 }
 
 .Popup-index-button {
-  margin-top: 23px;
+  margin-top: 27px;
   margin-right: 5px;
   width: 458px;
   height: 58px;
