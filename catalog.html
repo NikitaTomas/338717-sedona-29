@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/Style.css">
   </head>
   <body class="page-body">
-
+  <div class="page-body-section">
     <header class="Catalog-main-header">
       <section class="box-index">
         <h2 class="visuality_hidden">Навигация</h2>
@@ -20,9 +20,6 @@
             <li>
               <a href="#">Фото и видео</a>
             </li>
-            <li class="Catalog-logo-nav">
-              <a href="index.html"><img src="img/logo-nav-index.png" width="138" height="70" alt="Логотип"></a>
-            </li>
             <li>
               <a href="#">Карта штата</a>
             </li>
@@ -31,6 +28,7 @@
             </li>
           </ul>
         </nav>
+        <a class="img-logo-nav-catalog" href="index.html"><img src="img/logo-nav-index.png" width="138" height="70" alt="Логотип"></a>
       </section>
     </header>
 
@@ -73,7 +71,7 @@
             </form>
           </li>
           <li class="hotel-filter">
-            <form class="form-filter-catalog" action="index.html" method="post">
+            <form class="form-filter-catalog" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="filter-catalog">
                 <legend>Стоимость в сутки (Р):</legend>
                 <div class="range-filter-cdtdlog">
@@ -92,7 +90,7 @@
                     <div class="toggle toggle-min"></div>
                     <div class="toggle toggle-max"></div>
                   </div>
-                  <button class="range-filter-cdtdlog-button" type="button" name="button">Показать</button>
+                  <button class="range-filter-cdtdlog-button" type="submit" name="button">Показать</button>
                 </div>
               </fieldset>
             </form>
@@ -272,6 +270,6 @@
         </ul>
       </section>
     </footer>
-
+  </div>
   </body>
 </html>
