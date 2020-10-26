@@ -1086,28 +1086,23 @@ a {
 }
 
 .searching-results-button {
-  dis lay: flex;
-  margin-left: 460px;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 465px;
 }
 
-.searching-results-button::after button {
-  position: absolute;
-  content: "";
-  left: 10px;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  border: 1px solid green;
+.searching-results-button a {
+  display: block;
+  margin-right: 12px;
 }
 
-.search ing-results-button-btn::after {
-  position: absolute;
-  content: "";
-  left: 10px;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  border: 1px solid green;
+.searching-results-button a:hover path {
+  fill: #000000;
+
+}
+
+.searching-results-button a:active path {
+  fill: #81B3D2;
 }
 
 .searching-results-item-1 {
