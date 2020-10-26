@@ -334,6 +334,7 @@ a {
   list-style: none;
   text-align: center;
   text-transform: uppercase;
+  outline: 1px solid red;
 }
 
 .advantages-flex li {
