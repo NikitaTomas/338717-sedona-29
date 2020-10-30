@@ -532,7 +532,31 @@ a {
 
 /*-------------------Popup-index-SEARCH HOTEL--------------------*/
 
+.search-hotel {
+  display: none;
+}
+
+.appearance-popup {
+  display: block;
+}
+
+@keyframes popup {
+  0% { transform: translateY(-200px) }
+  10% { transform: translateY(-180px) }
+  20% { transform: translateY(-160px) }
+  30% { transform: translateY(-140px) }
+  40% { transform: translateY(-120px) }
+  50% { transform: translateY(-100px) }
+  60% { transform: translateY(-80px) }
+  70% { transform: translateY(-60px) }
+  80% { transform: translateY(-40px) }
+  90% { transform: translateY(-20px) }
+  100% {transform: translateY(0) }
+}
+
 .popup-index-search-hotel {
+  animation-name: popup;
+  animation-duration: 0.3s;
   display: flex;
   position: absolute;
   top: 2170px;
@@ -546,7 +570,6 @@ a {
 .popup-index {
   margin-top: 53px;
   margin-left: 55px;
-
 }
 
 .popup-index-date,

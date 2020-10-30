@@ -1,13 +1,8 @@
-const HotelLink document.querySelector(".SEARCH-HOTEL-Link");
-const SearchHotel document.querySelector(".SEARCH-HOTEL");
+let link = document.querySelector(".link-feedback");
+let popup = document.querySelector(".search-hotel");
 
-HotelLink.addEventListener("click", function () {
-  evt.preventDefault();
-  SearchHotel.classList.add("SEARCH-Show");
-  
-});
 
-HotelLink.addEventListener("click", function (evt) {
+link.addEventListener("click", function (evt) {
   evt.preventDefault();
-  SearchHotel.classList.remove("SEARCH-Show");
+  popup.classList.add("appearance-popup");
 });
